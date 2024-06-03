@@ -1,0 +1,43 @@
+body {
+    background:rgb(130, 130, 224);
+}
+.wrapper {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #262626;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+.wrapper h2 {
+    text-transform: uppercase;
+    font-family: verdana;
+    margin-bottom: 5%;
+}
+#num-um, #num-dois{
+    height: 28px;
+    margin: 5px;
+    font-size: 20px;
+}
+button {
+    background: rgb(247, 99, 99);
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: verdana;
+    letter-spacing: 2px;
+    font-weight: bold;
+    }
+input[type="radio"] {
+    width: 20px;
+    height: 28px;
+    margin-bottom: 20px;
+}
+b {
+    font-size: 25px;
+}
